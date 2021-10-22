@@ -1,4 +1,32 @@
 /* ++++++++ FRAMEWORK ++++++++ */
+
+/* CONTAINER */
+.container-fluid {
+    width: 100%;
+    max-width: 100%
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+/* /CONTAINER */
+
+
+/* RIGA+WRAP */
+.row {
+    display: flex;
+    /* Aggiungiamo wrap per la responsiveness */
+    flex-wrap: wrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+/* /RIGA+WRAP */
+
+
 /* COLONNE */
 .col-xs-1 {
     flex-basis: calc((100% / 12) * 1);

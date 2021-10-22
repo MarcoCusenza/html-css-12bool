@@ -4,32 +4,10 @@
     margin: 0;
     padding: 0;
 }
-
-.container-fluid {
-    width: 100%;
-    max-width: 100%
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0 auto;
-}
 /* /COMMONS */
 
 
-
 /* ++++++++ MAIN ++++++++ */
-
-/* RIGA + WRAP */
-.row {
-    display: flex;
-}
-
-.wrap{
-    flex-wrap: wrap;
-}
-/* /RIGA + WRAP */
-
 .box {
     min-height: 200px;
     background-color: lightpink;
@@ -49,5 +27,6 @@
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    padding: 10px;
 }
 /* ++++++++ /MAIN ++++++++ */
