@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 /* /COMMONS */
 
@@ -30,3 +31,69 @@
     padding: 10px;
 }
 /* ++++++++ /MAIN ++++++++ */
+
+/* MEDIAQUERY SMALL */
+@media screen and (min-width: 576px) {
+    .box{
+        background-color: rgb(255, 147, 163);
+        border: 2px solid rgb(97, 216, 255);
+    }
+
+    .box-nested{
+        background-color: rgb(101, 188, 218);
+        border: 2px solid rgb(255, 88, 177);
+    }
+}
+/* /MEDIAQUERY SMALL */
+
+
+
+/* MEDIAQUERY MEDIUM */
+@media screen and (min-width: 762px) {
+    .box{
+        background-color: rgb(246, 109, 129);
+        border: 2px solid rgb(150, 229, 255);
+    }
+
+    .box-nested{
+        background-color: rgb(64, 177, 214);
+        border: 2px solid rgb(255, 138, 200);
+    }
+}
+/* /MEDIAQUERY MEDIUM */
+
+
+
+/* MEDIAQUERY LARGE */
+@media screen and (min-width: 900px) {
+    *{
+        color: white;
+    }
+    
+    .box{
+        background-color: rgb(245, 83, 108);
+        border: 2px solid rgb(208, 243, 255);
+    }
+
+    .box-nested{
+        background-color: rgb(26, 147, 187);
+        border: 2px solid rgb(253, 193, 225);
+    }
+}
+/* /MEDIAQUERY LARGE */
+
+
+
+/* MEDIAQUERY EXTRALARGE */
+@media screen and (min-width: 1050px) {
+   .box{
+        background-color: rgb(182, 41, 62);
+        border: 2px solid rgb(207, 207, 207);
+    }
+
+    .box-nested{
+        background-color: rgb(0, 112, 149);
+        border: 2px solid rgb(255, 255, 255);
+    }
+}
+/* /MEDIAQUERY EXTRALARGE */
